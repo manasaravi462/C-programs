@@ -17,17 +17,17 @@ int main()
     }
     else if(unit>=200 && unit<400)
     {
-        bill=unit*1.50;
+        bill=238.8+((unit-199)*1.50);
         printf("the bill is %f\n",bill);
     }
     else if(unit>=400 && unit<600)
     {
-        bill=unit*1.80;
+        bill=538.8+((unit-399)*1.80);
         printf("the bill is %f\n",bill);
     }
     else if(unit>=600);
     {
-        bill=unit*2.00;
+        bill=898.8+((unit-599)*2.00);
         printf("the bill is %f\n",bill);
     }
     if(bill>400)
