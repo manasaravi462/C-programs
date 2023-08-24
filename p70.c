@@ -4,23 +4,23 @@ int main()
     int vivo=20000,oneplus=45000,oppo=12000,iphone=100000,mi=66000,a,b;
     printf("enter the value of a and b\n");
     scanf("%d%d",&a,&b);
-    if((a>=10000)&&(b<15000))
+    if((oppo>=a)&&(oppo<=b))
     {
         printf("the available brand in budget range is oppo");
     }
-    else if((a>=15000)&&(b<30000))
+    if((vivo>=a)&&(vivo<=b))
     {
         printf("the available brand in budget range is vivo");
     }
-    else if((a>=30000)&&(b<50000))
+    if((oneplus>=a)&&(oneplus<=b))
     {
         printf("the brand name is oneplus");
     }
-    else if((a>=50000)&&(b<70000))
+    if((mi>=a)&&(mi<=b))
     {
         printf("the brand name is mi");
     }
-    else if((a>=70000)&&(b<100000))
+    if((iphone>=a)&&(iphone<=b))
     {
         printf("the brand name is iphone");
     }
